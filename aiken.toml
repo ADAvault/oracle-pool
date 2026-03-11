@@ -1,0 +1,23 @@
+name = "adavault/oracle_pool"
+version = "0.0.0"
+compiler = "v1.1.21"
+plutus = "v3"
+license = "Apache-2.0"
+description = "Ergo-inspired oracle pool protocol for Cardano — on-chain aggregation, reference input consumption"
+
+[repository]
+user = "adavault"
+project = "oracle_pool"
+platform = "github"
+
+[[dependencies]]
+name = "aiken-lang/stdlib"
+version = "v3.0.0"
+source = "github"
+
+[[dependencies]]
+name = "aiken-lang/fuzz"
+version = "v2.2.0"
+source = "github"
+
+[config]
