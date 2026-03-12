@@ -1,7 +1,6 @@
 /// Oracle Pool Protocol — Shared Types
 ///
 /// All datum and redeemer types used across the protocol's validators.
-
 /// Pool box datum — holds the finalized aggregated oracle rate.
 pub type PoolDatum {
   /// Aggregated rate (e.g. ADA/USD price in millionths: 350000 = $0.35)
