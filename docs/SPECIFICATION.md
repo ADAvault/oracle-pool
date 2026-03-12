@@ -351,7 +351,7 @@ to minUTXO (~1.5 ADA per output). Alternative funding approaches:
 - Stress test: deliberately post outliers, test deviation rejection
 
 ### Phase 5: Hardening
-- Security audit (aiken-skill audit methodology)
+- Security audit (cardano-skill audit methodology)
 - Edge cases: all oracles post same value, only min_data_points post,
   epoch boundary race conditions
 - Execution budget optimization
